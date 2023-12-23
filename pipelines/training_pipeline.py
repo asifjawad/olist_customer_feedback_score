@@ -4,6 +4,7 @@ from steps.clean_data import clean_df
 from steps.ingest_data import ingest_df
 from steps.evaluation import evaluate_model
 from steps.train_model import train_model
+# factory pattern, singleton pattern
 
 @pipeline
 def train_pipeline(data_pth:str):
