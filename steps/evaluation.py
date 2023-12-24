@@ -31,7 +31,7 @@ def evaluate_model(
         rmse_class= RMSE()
         rmse = rmse_class.calculate_score(y_test, prediction)
 
-        return mse, r2, rmse
+        return mse, r2
     except Exception as e:
         logging.error(f"Error in evaluating models")
         raise e

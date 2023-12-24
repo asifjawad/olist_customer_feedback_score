@@ -44,7 +44,7 @@ class RMSE(Evaluation):
     def calculate_score(self, y_test: np.ndarray, y_pred: np.ndarray):
         try:
             logging.info(f"Calculating MSE")
-            rmse = r2_score(y_test, y_pred, squared=False)
+            rmse = mean_squared_error(y_test, y_pred, squared=False)
             logging.info(f"R2 {rmse}")
             return rmse
         except Exception as e:

@@ -9,7 +9,7 @@ class Model(ABC):
         pass
 
 
-class LinearRegressModel(Model):
+class LinearRegressionModel(Model):
      def train(self, X_train, y_train, **kwargs):
         reg = LinearRegression(**kwargs)
         reg.fit(X_train,y_train)
