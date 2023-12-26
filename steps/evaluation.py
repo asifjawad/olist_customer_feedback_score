@@ -9,6 +9,7 @@ from typing_extensions import Annotated
 
 from src.evaluation import RMSE, MSE, R2
 
+
 @step
 def evaluate_model(
     model: RegressorMixin,
@@ -33,5 +34,5 @@ def evaluate_model(
 
         return mse, r2
     except Exception as e:
-        logging.error(f"Error in evaluating models")
+        logging.error(f"Error in evaluating model, Please check again")
         raise e
