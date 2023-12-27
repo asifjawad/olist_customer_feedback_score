@@ -21,7 +21,9 @@ from zenml.integrations.mlflow.services import MLFlowDeploymentService
 from zenml.integrations.mlflow.steps import mlflow_model_deployer_step
 from zenml.steps import BaseParameters, Output
 
-docker_setting = DockerSettings(required_integrations: [MLFLOW])
+
+
+docker_setting = DockerSettings(required_integrations=[MLFLOW])
 
 
 
