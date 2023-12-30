@@ -22,8 +22,8 @@
 
 ## Results Screen Shot
 
-![Prediction](1.png)
-![Work Flow](3.png)
+![Prediction](image/1.png)
+![Work Flow](image/3.png)
 
 
 ## How to Use
