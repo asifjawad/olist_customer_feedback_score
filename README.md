@@ -21,9 +21,16 @@
 
 
 ## Results Screen Shot
-
+Below you can find out some screen shot of the development work process and the environment from where to perform inference.
 ![Prediction](image/1.png)
-![Work Flow](image/3.png)
+
+
+![Work Flow](image/4.png)
+
+
+![Inference](image/2.png)
+
+
 
 
 ## How to Use
