@@ -16,7 +16,7 @@
 | Product Length (CMs)         | Length of the product measured in centimeters.                                                   |
 | Product Height (CMs)         | Height of the product measured in centimeters.                                                   |
 | Product Width (CMs)          | Width of the product measured in centimeters.                                                    |
-
+| Target Feature               | Provide the Score accordingly  |
 ## How to Use
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/zenml)](https://pypi.org/project/zenml/)
